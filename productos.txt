@@ -1,0 +1,137 @@
+1,Escudo Superman,15
+2,Casco NFL,15
+3,Nice,15
+4,ChickfilA,15
+5,Toy Story,15
+6,Hongos,15
+7,Minecraft,15
+8,Astronauta,15
+9,South Park,15
+10,Minion,15
+11,Mariposa,15
+12,Conejo,15
+13,Cerveza,15
+14,Vampiersa,15
+15,Papas Francesas,15
+16,M&M,15
+17,Murcielago,15
+18,Calabaza Hallowen,15
+19,Fredy Cruger,15
+20,Billetes,15
+21,Beisball,15
+22,Alien,15
+23,Perro,15
+24,BAn,15
+25,Ramen,15
+26,Capitan America,15
+27,Flor,15
+28,Bluey,15
+29,Vaca,15
+30,Ballena,15
+31,Gorila,15
+32,South Park 1,15
+33,Shrek,15
+34,Dona,15
+35,Perro deportista,15
+36,Bici,15
+37,Fresa,15
+38,Pato Donald,15
+39,Location,15
+40,Corazon,15
+41,Audifonos,15
+42,Caja donas,15
+43,Batman,15
+44,Woody,15
+45,Mosaico,15
+46,Nic Fury,15
+47,Bolsa billetes,15
+48,Taza de cafe,15
+49,Leche,15
+50,Perro 1,15
+51,Hongos 1,15
+52,AR2D,15
+53,Cerveza pollo,15
+54, minecraft 1,15
+55,Taco,15
+56,Switch N,15
+57,Keep it weird,15
+58,Control arcade,15
+59,CArta,15
+60,Tiburon,15
+61,Superman,15
+62,Paraguas,15
+63,Combo,15
+64,Stich,15
+65,Enano globo,15
+66,-,15
+67,Pato k,15
+68,Pelota Americano,15
+69,Taza te,15
+70,Love Basquet,15
+71,Nieve,15
+72,Sombrero,15
+73,Candy Bars,15
+74,Live Love Play,15
+75,Roll,15
+76,Guitarra,15
+77,GameBoy,15
+78,Concha,15
+79,Joystic,15
+80,Mony,15
+81,Bull,15
+82,Minecraft 3,15
+83,Amor y Paz,15
+84,Mariposa 2,15
+85,Milk,15
+86,Smile Face,15
+87,CAt,15
+88,Insta,15
+89,Sandia,15
+90,Superman,15
+91,Avion,15
+92,Escudo Cap America,15
+93,Libretas,15
+94,Palomitas,15
+95,Fany,15
+96,Bluey Baby on,15
+97,Sombrero afro,15
+98,Dino,15
+99,Flecha,15
+100,Oruga,15
+101,Teni,15
+102,Naranja,15
+103,Batman,15
+104,Corazones,15
+105,Canasta,15
+106,Rayo,15
+107,Elmo,15
+108,Star -,15
+109,N64 joy,15
+110,Spiderman,15
+111,Bad Buny,15
+112,Bot,15
+113,Sushi roll,15
+114,Minion Maid,15
+115,Bot 2,15
+116,Casset,15
+117,Corazon I DO,15
+118, Dino 2,15
+119,Mounstro,15
+120,Spiderman Escudo,15
+121,LAbios Star,15
+122,Minecraft 4,15
+123,Acuarelas,15
+124,South Park 2,15
+125,Vaso Drink,15
+126,Globo Aero,15
+127, Calabaza loca,15
+128,Be NIce,15
+129,Boy,15
+130,Pigglet,15
+131,c,15
+132,GRL PWR,15
+134,Spiderman 2,15
+135,Biberon,15
+136,Jaguar,15
+137,Pretty Girl,15
+138,Hulk,15
