@@ -5,48 +5,98 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JIBBLINZ Costa Rica</title>
     <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
         body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f8f8f8;
             user-select: none; /* Evita seleccionar texto */
         }
 
+        header {
+            background-color: #1af521;
+            padding: 20px;
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+            text-shadow: 2px 2px 5px black;
+        }
+
         .logo {
-            background: left / cover url("logo.jpg");
-            display:flow-root;
-            height: 200px;
-            align-items: center;
+            display: block;
+            margin: 20px auto;
+            width: 200px;
+            height: auto;
+        }
+
+        h1 {
+            font-size: 28px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .contenedor-productos {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
             justify-content: center;
-            font: bold calc(1em + 2 * (100vw - 120px) / 100) "Dancing Script", fantasy;
-            color: #1af521;
-            text-shadow: #000 2px 2px 0.2rem;
+            max-width: 1000px;
+            margin: auto;
         }
 
         .producto {
-            border: 1px solid #ccc;
-            padding: 10px;
-            margin: 10px;
-            display: inline-block;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 15px;
             text-align: center;
-            position: relative;
+            transition: transform 0.2s;
+        }
+
+        .producto:hover {
+            transform: scale(1.05);
         }
 
         .producto img {
-            width: 100px;
-            height: 100px;
-            align-items: center;
-            object-fit:contain;
+            width: 150px;
+            height: 150px;
+            object-fit: contain;
+            border-radius: 10px;
             pointer-events: none; /* Evita arrastrar imágenes */
             -webkit-user-drag: none;
         }
 
-        /* Capa encima de la imagen para bloquear screenshots */
-        .producto::after {
-            content: "";
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            top: 0;
-            left: 0;
-            background: transparent;
+        .producto h2 {
+            font-size: 20px;
+            color: #333;
+            margin: 10px 0;
+        }
+
+        .producto p {
+            font-size: 18px;
+            color: #666;
+            margin-bottom: 10px;
+        }
+
+        .producto button {
+            background: #1af521;
+            color: white;
+            font-size: 16px;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .producto button:hover {
+            background: #17c41c;
         }
     </style>
     <script>
@@ -68,12 +118,12 @@
                 return { id, nombre, precio };
             });
 
-            const contenedor = document.getElementById("productos");
+            const contenedor = document.getElementById("contenedor-productos");
             productos.forEach(producto => {
                 const div = document.createElement("div");
                 div.classList.add("producto");
                 div.innerHTML = `
-                    <div style="background-image: url('img/${producto.id}.png'); width: 100px; height: 100px; background-size: cover;"></div>
+                    <img src="img/${producto.id}.png" alt="${producto.nombre}">
                     <h2>${producto.nombre}</h2>
                     <p>Precio: $${producto.precio}</p>
                     <button onclick="comprar('${producto.nombre}', ${producto.precio})">Comprar</button>
@@ -86,14 +136,13 @@
             alert(`Has comprado ${nombre} por $${precio}`);
         }
 
-        cargarProductos();
+        window.onload = cargarProductos;
     </script>
 </head>
 <body>
-    <header>
-        <a class="logo" href="#">Cute Jibbitz!</a>
-    </header>
-    <h1>Productos</h1>
-    <div id="productos"></div>
+    <header>JIBBLINZ Costa Rica</header>
+    <img class="logo" src="logo.jpg" alt="JIBBLINZ Logo">
+    <h1>Productos Disponibles</h1>
+    <div id="contenedor-productos" class="contenedor-productos"></div>
 </body>
 </html>
