@@ -17,8 +17,10 @@
             background-color: #f8f8f8;
             user-select: none; /* Evita seleccionar texto */
         }
-
+     
         header {
+            display: flex;
+            align-items: center;
             background-color: #1af521;
             padding: 20px;
             font-size: 24px;
@@ -33,7 +35,11 @@
             width: 200px;
             height: auto;
         }
-
+        .merca {
+    width: 40px; /* Tamaño del logo */
+    height: auto;
+    margin-right: 10px; /* Espacio entre logo y texto */
+}
         h1 {
             font-size: 28px;
             margin-bottom: 20px;
@@ -297,7 +303,9 @@
     <script src="https://maps.googleapis.com/maps/api/js?key=TU_CLAVE_API&callback=initMap" async defer></script>
 </head>
 <body>
-    <header>JIBBITZ Costa Rica</header>
+    
+    <header>JIBBITZ Costa Rica
+        <img class="merca" src="merca.png" alt="mercadopago"></header>
     <img class="logo" src="logo.jpg" alt="JIBBLINZ Logo">
     <h1> </h1>
 
