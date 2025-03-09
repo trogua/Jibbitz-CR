@@ -35,6 +35,49 @@
             width: 200px;
             height: auto;
         }
+        .metodos-pago-container {
+    text-align: center;
+    max-width: 400px; /* Ajusta según tu diseño */
+    margin-top: 20px;
+}
+
+.metodos-pago-container h2 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #003366; /* Azul oscuro */
+    text-transform: uppercase;
+    background: linear-gradient(to right, #0044cc, #00aaff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 15px;
+}
+
+.metodos-pago {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.metodo {
+    text-align: center;
+    width: 120px; /* Ajusta el tamaño del cuadro */
+}
+
+.metodo img {
+    width: 100px; /* Ajusta el tamaño de los iconos */
+    height: 100px;
+    border-radius: 50%;
+    background: linear-gradient(to bottom, #007bff, #00aaff); /* Degradado azul */
+    padding: 10px;
+}
+
+.metodo p {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
         .merca {
     width: 40px; /* Tamaño del logo */
     height: auto;
@@ -312,9 +355,29 @@
     <div style="display: flex; justify-content: start; align-items: stretch; padding: 20px;flex-direction: row-reverse;">
         <!-- Frame izquierdo -->
         
-        <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1123.0700752395721!2d-107.38488373036878!3d24.594883218062407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjTCsDM1JzQxLjYiTiAxMDfCsDIzJzAzLjMiVw!5e1!3m2!1ses-419!2smx!4v1741481166842!5m2!1ses-419!2smx" 
+        
+            <div  style="display: flex;font-size: 24px;
+            font-weight: bold;
+            color: #003366; /* Azul oscuro */
+            text-transform: uppercase;
+            background: linear-gradient(to right, #0044cc, #00aaff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 15px;flex-direction:column;"">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1123.0700752395721!2d-107.38488373036878!3d24.594883218062407!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjTCsDM1JzQxLjYiTiAxMDfCsDIzJzAzLjMiVw!5e1!3m2!1ses-419!2smx!4v1741481166842!5m2!1ses-419!2smx" 
             width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            
+                <h1>Metodos de Pago en Ubicacion</h1>
+                <div class="metodo">
+                    <img src="efectivo.png" alt="Efectivo">
+                    <p>Efectivo</p>
+                </div>
+                <div class="metodo">
+                    <img src="tarjeta.png" alt="Tarjeta">
+                    <p>Tarjeta de Crédito</p>
+                </div>         
+                
+                
+            </div>    
         <div id="contenedor-productos" class="contenedor-productos"></div>
 
         <!-- Frame derecho -->
